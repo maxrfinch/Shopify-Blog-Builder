@@ -116,7 +116,7 @@
 	min-height: 40px;
 	padding: calc(20px / 2) 10px;
 	position: relative;
-	width: 10%;
+	width: fit-content;
 	text-decoration: none;
 }
 
