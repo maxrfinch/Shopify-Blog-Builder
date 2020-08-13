@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="master.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Shopify Blog Layouts</title>
+</head>
+<body onload="checkCookie();">
+  <div class="main">
+    <div class="main__information">
+      <h1>Shopify Blog Content Generator</h1>
+      <p>Use this tool to create layouts for the Shopify blog. Simply click a layout, follow the dialog, and click "copy code". Then paste into the HTML section of the shopify blog.</p>
+      <div class="main__btn-container">
+        <button class="main__btn copy" onclick="copy();">Copy Code</button>
+        <button class="main__btn add" onclick="$('#elements').css('display', 'block');">Add Element</button>
+      </div>
+    </div>
+
+    <div class="main__layout-content">
+      <!-- Begin custom sections -->
+      <div class="twelve bottompad element">
+        <!-- Plain Paragraph W/ Header -->
+        <h2>Edit This Header</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ut.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="elements" style="display:none;">
+    <div class="elements__container">
+      <button class="main__btn el" onclick="addEl(1);">Add Plain Paragraph & Header</button>
+      <button class="main__btn el" onclick="addEl(2);">Add Plain Paragraph, Header, and CTA</button>
+      <button class="main__btn el" onclick="addEl(3);">Add Plain Paragraph, Header, Image</button>
+      <button class="main__btn el" onclick="addEl(4);">Add Plain Paragraph, Header, Image, and CTA</button>
+      <button class="main__btn el" onclick="addEl(5);">Add 5 Images</button>
+      <button class="main__btn el" onclick="addEl(6);">Add 4 Images</button>
+      <button class="main__btn el" onclick="addEl(7);">Add 3 Images</button>
+      <button class="main__btn el" onclick="addEl(8);">Add 2 Images</button>
+      <button class="main__btn el" onclick="addEl(9);">Add 1 Image</button>
+
+    </div>
+  </div>
+
+
+
+
+
+  <script type="text/javascript" src="./script.js">
+  </script>
+</body>
+</html>

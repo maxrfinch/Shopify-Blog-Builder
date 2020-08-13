@@ -1,0 +1,129 @@
+.one {
+	width: 8.33%;
+}
+
+/* 100px / 1200 */
+.two {
+	width: 16.66%;
+}
+
+/* 200px */
+.two-half {
+	width: 20%;
+}
+
+/* 250px */
+.three {
+	width: 25%;
+}
+
+/* 300px */
+.four {
+	width: 33.33%;
+}
+
+/* 400px */
+.five {
+	width: 41.66%;
+}
+
+/* 500px */
+.six {
+	width: 50%;
+}
+
+/* 600px */
+.seven {
+	width: 58.33%;
+}
+
+/* 700px */
+.eight {
+	width: 66.66%;
+}
+
+/* 800px */
+.nine {
+	width: 75%;
+}
+
+/* 900px */
+.ten {
+	width: 83.33%;
+}
+
+/* 1000px */
+.eleven {
+	width: 91.66%;
+}
+
+/* 1100px */
+.twelve {
+	width: 100%;
+}
+
+/* 1200px */
+.one,
+.two,
+.two-half,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve {
+	font-size: var(--small);
+	padding: 0 calc(var(--master_spacing) / 2);
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*
+
+.bottompad {
+	margin-bottom: calc(20px * 1.5);
+}
+*/
+
+.btn {
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: rgb(14, 15, 32);
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	color: white;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: calc(12px * 1.25);
+	font-family: sans-serif;
+	min-height: 40px;
+	padding: calc(20px / 2) 10px;
+	position: relative;
+	width: 10%;
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
