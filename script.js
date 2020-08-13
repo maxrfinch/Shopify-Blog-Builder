@@ -217,7 +217,6 @@ $('.main').on('click', '.element',function(e){
     } else if (['h2', 'h3', 'h4', 'h5', 'h6', 'h7', 'a','p'].includes(e.target.localName)) {
       if(e.target.localName == 'a') {
         e.target.innerText = prompt('Enter Call To Action Text') + " →";
-        setCookie("code", code, 10);
         return true
       }
       e.target.innerText = prompt('Enter Heading Text Here');
